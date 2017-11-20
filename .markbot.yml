@@ -1,0 +1,36 @@
+repo: 'making-an-image-card'
+canvasCourse: 'web-dev-1'
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+  - css
+  - box-sizing
+  - img-flex
+
+html:
+  - path: 'index.html'
+    outline: false
+    has:
+      - 'article.card > header.card-head > h2.card-title + span.card-label + img.img-flex'
+      - 'header.card-head + div.card-body > p'
+      - 'img[src="http://placehold.it/640x480"]'
+    search:
+      - 'Stegosaurus'
+      - 'Plant-eater'
+      - 'The Stegosaurus is an armoured dinosaur with distinctive back plates and tail spikes.'
+
+css:
+  - path: 'css/main.css'
+    has:
+      - ['html', 'font-family', 'sans-serif']
+      - ['.card', ['overflow', 'border', 'border-radius']]
+      - ['.card-head', ['position']]
+      - ['.card-title', ['position', 'bottom', 'left', 'margin', 'width', 'padding']]
+      - ['.card-label', ['position', 'left', 'top', 'padding', 'border-left', 'background-color']]
+      - ['.card-body', ['padding']]
+
+screenshots:
+  - path: 'index.html'
+    sizes: [320]
