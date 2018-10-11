@@ -15,7 +15,7 @@ html:
     has:
       - 'article.card > header.card-head > h2.card-title + span.card-label + img.img-flex'
       - 'header.card-head + div.card-body > p'
-      - 'img[src="http://placehold.it/640x480"]'
+      - 'img[src="https://placehold.it/640x480"]'
     search:
       - 'Stegosaurus'
       - 'Plant-eater'
