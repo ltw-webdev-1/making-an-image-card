@@ -8,7 +8,7 @@
 
 This is the starter code for a step-by-step lesson. Each step is described in detail here:
 
-### [**Follow the “Making an image card” step-by-step lesson ➔**](https://learn-the-web.algonquindesign.ca/courses/web-dev-1/making-an-image-card/)
+### [**Follow the “Making an image card” step-by-step lesson ➔**](https://learntheweb.courses/courses/web-dev-1/making-an-image-card/)
 
 ---
 
